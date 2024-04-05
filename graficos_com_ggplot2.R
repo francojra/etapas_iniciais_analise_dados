@@ -12,4 +12,6 @@ library(dados) # Pacote com conjunto de dados traduzidos para o português
 
 # Carregar dados ---------------------------------------------------------------------------------------------------------------------------
 
-
+dados <- dados::pinguins # Carregando dados de pinguins do pacote dados
+view(dados) # Visualizando tabela de dados
+glimpse(dados) # Visualizando classes de dados
