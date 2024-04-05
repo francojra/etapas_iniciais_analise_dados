@@ -15,3 +15,5 @@ library(dados) # Pacote com conjunto de dados traduzidos para o português
 dados <- dados::pinguins # Carregando dados de pinguins do pacote dados
 view(dados) # Visualizando tabela de dados
 glimpse(dados) # Visualizando classes de dados
+vis_dat(dados) # Outra forma de visualizar classes
+vis_miss(dados) # Visuzalizar dados faltantes
