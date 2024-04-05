@@ -5,7 +5,7 @@
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
-library(tidyverse)
-library(ggthemes)
-library(visdat)
+library(tidyverse) # Pacote para manipulação de dados e gráficos
+library(ggthemes) # Pacote com temas para gráficos em ggplot2
+library(visdat) # Pacote para visualizar dados com NAs
 
